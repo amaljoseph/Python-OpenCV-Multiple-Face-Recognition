@@ -1,5 +1,5 @@
 # Multiple Face Recogniton using Python & OpenCV
-OpenCV based face recognition system that can detect and recognize multiple faces in an image. This project is based on this, which had only single face detection. I have implemented a multiple face system.
+OpenCV based face recognition system that can detect and recognize multiple faces in an image. This project is based on [this](https://github.com/informramiz/opencv-face-recognition-python/), which had only single face detection. I have implemented a multiple face recognition system.
 
 
 
