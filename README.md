@@ -29,7 +29,7 @@ These 3 algorithms could be added to the project by changing a single line.
 ## How to run?
 To run the program, in terminal type `python facemaster.py`
 
-The photos of each individual should be stored in a folder s[i] (s1, s2 etc) inside the training-data folder., s
+The photos of each individual should be stored in a folder s[i] (s1, s2 etc) inside the training-data folder.
 Test images are stored in test-data folder.
 
 The application is built over 3 files. 
