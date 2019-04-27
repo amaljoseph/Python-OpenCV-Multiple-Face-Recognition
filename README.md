@@ -24,12 +24,12 @@ These 3 algorithms could be added to the project by changing a single line.
 3. [Numpy](https://www.numpy.org/)
 
 ## How to run?
-To run the program, in terminal type 'python facemaster.py'
+To run the program, in terminal type `python facemaster.py`
 
-The photos of each individual should be stored in a folder s[i] inside the training-data folder.
+The photos of each individual should be stored in a folder s[i] (s1, s2 etc) inside the training-data folder., s
 Test images are stored in test-data folder.
 
 The application is built over 3 files. 
-  1. facemaster.py - Create the recognizer, train the images using 'training_data()' and makes predictions from test data using 'predict()' function.
-  2. training_data.py - To parse through each images in the training set and call 'face_detect()' on each image.
+  1. facemaster.py - Create the recognizer, train the images using `training_data()` and makes predictions from test data using `predict()` function.
+  2. training_data.py - To parse through each images in the training set and call `face_detect()` on each image.
   3. face_detect.py - To detect the face, here we are initializing Haar Cascade classifier to detect multiple faces from the image, draw bounding boxes over face and returns the face bonding box coordinates.
