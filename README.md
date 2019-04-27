@@ -15,9 +15,9 @@ We are using LBPH (Local Binary Patterns Histograms ) classifier to recognize th
 
 These 3 algorithms could be added to the project by changing a single line.
 
-  EigenFaces Face Recognizer Recognizer - `cv2.face.createEigenFaceRecognizer()`
-  FisherFaces Face Recognizer Recognizer - `cv2.face.createFisherFaceRecognizer()`
-  Local Binary Patterns Histograms (LBPH) Face Recognizer - `cv2.face.createLBPHFaceRecognizer()`
+  a. EigenFaces Face Recognizer Recognizer - `cv2.face.createEigenFaceRecognizer()`
+  b. FisherFaces Face Recognizer Recognizer - `cv2.face.createFisherFaceRecognizer()`  
+  c. Local Binary Patterns Histograms (LBPH) Face Recognizer - `cv2.face.createLBPHFaceRecognizer()`
 
 ## Requirements
 1. [Python 2.7.x](https://www.python.org/downloads/)
