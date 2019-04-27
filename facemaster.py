@@ -20,6 +20,7 @@ face_recognizer = cv2.face.LBPHFaceRecognizer_create()
 face_recognizer.train(faces, np.array(labels))
 
 
+# Read the test image.
 test_img = "test-data/test.jpg"
 predicted_img , label= predict(test_img)
 cv2.destroyAllWindows()
