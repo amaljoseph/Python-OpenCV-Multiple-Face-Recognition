@@ -14,9 +14,10 @@ Face detection is acheived in this project using Haar Cascade classifier. It cou
 We are using LBPH (Local Binary Patterns Histograms ) classifier to recognize the faces from the images. It compares neighboring pixels of a pixel and creates a histogram out of it for comparing faces. We could also use algorithms such as, EigenFaces Face Recognizer and FisherFaces Face Recognizer. The official Documentaion is available [here](https://docs.opencv.org/2.4.13.7/modules/contrib/doc/facerec/facerec_tutorial.html).
 
 These 3 algorithms could be added to the project by changing a single line.
-  EigenFaces Face Recognizer Recognizer - 'cv2.face.createEigenFaceRecognizer()'
-  FisherFaces Face Recognizer Recognizer - 'cv2.face.createFisherFaceRecognizer()'
-  Local Binary Patterns Histograms (LBPH) Face Recognizer - 'cv2.face.createLBPHFaceRecognizer()'
+
+  EigenFaces Face Recognizer Recognizer - `cv2.face.createEigenFaceRecognizer()`
+  FisherFaces Face Recognizer Recognizer - `cv2.face.createFisherFaceRecognizer()`
+  Local Binary Patterns Histograms (LBPH) Face Recognizer - `cv2.face.createLBPHFaceRecognizer()`
 
 ## Requirements
 1. [Python 2.7.x](https://www.python.org/downloads/)
